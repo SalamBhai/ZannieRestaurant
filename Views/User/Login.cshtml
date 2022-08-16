@@ -1,0 +1,55 @@
+@model UserLoginRequestModel
+<html>
+<head>
+  <style>
+      body{
+          background-image: url('../NewDownloads/downloadarrow.jpg');
+          background-size:cover;
+      }
+      .form-group{
+          font-family:"Times New Roman";
+          color:White;
+      }
+  </style>
+</head>
+<body>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Login Page";
+}
+
+
+<h3><i style= "background-color:DodgerBlue"> Welcome! Login Here! </i></h3>
+
+<hr/>
+<div class="row">
+    <div class="col-md-4" style="max-width: 500px; margin: 0px auto;">
+        <div class="text-danger">@ViewBag.Message</div>
+        <form asp-action="Login">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group">
+                <b><label asp-for="Email" class="control-label">Email</label></b>
+                <input asp-for="Email" class="form-control"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"><b> Your Password</b></label>
+                <input asp-for="Password" class="form-control" type="password"/>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary"/>
+            </div>
+            <div>
+                <button><p>Got No Account? <a asp-controller="User" asp-action="CreateCustomer">Register Here Please</a> </p></button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

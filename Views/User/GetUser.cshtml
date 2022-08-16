@@ -1,0 +1,43 @@
+@model ViewUserRequestModel
+<html>
+    <head>
+        <style>
+            body{
+                background-color:orange
+            }
+        </style>
+    </head>
+  <dd class="col-sm-10">
+        <img class="card-img" style="height:200px; width:200px; border-radius:50% border-color: orange" src="~/UserPhoto/@Model.UserPhoto" />
+    </dd>
+  <dl class="row">
+    <dt class="col-sm-2">
+        Name:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.FullName
+    </dd>
+   
+    <dt class="col-sm-2">
+        Customer Address
+    </dt>
+    <dd class="col-sm-9">
+        @Model.CustomerAddress
+    </dd>
+   <dt class= "col-sm-2">
+       Email Address
+   </dt>
+   <dd class= "col-sm-10">
+       @Model.EmailAddress
+   </dd>
+    <dt class= "col-sm-2">
+       Mobile Number
+   </dt>
+    <dd class= "col-sm-10">
+       @Model.PhoneNumber
+   </dd>
+  <div class="form-group">
+      <button><a asp-controller= "User" asp-action="AdminDashboard" class="btn-btn-primary"> Back To Home </a></button>
+  </div>
+</dl>
+</html>

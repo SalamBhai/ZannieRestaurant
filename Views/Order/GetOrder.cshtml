@@ -1,0 +1,102 @@
+@model ViewOrderRequestModel
+<!doctype html>
+ <html>
+     <head>
+         <style>
+             .text-center{
+                 background-image: url("../ImagesDownloaded/images.jpeg" )
+             }
+         </style>
+     </head>
+ </html>
+
+
+<dl class="row">
+    <dt class="col-sm-2">
+        Date Placed:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.OrderDate
+    </dd>
+   
+    <dt class="col-sm-2">
+       Delivery Date:
+    </dt>
+    <dd class="col-sm-9">
+        @Model.DeliveryDate
+    </dd>
+   <dt class= "col-sm-2">
+       Customer Name
+   </dt>
+   <dd class= "col-sm-10">
+       @Model.CustomerName
+   </dd>
+ <dt class= "col-sm-2">
+       Customer Address
+   </dt>
+   <dd class= "col-sm-10">
+       @Model.CustomerAddress
+   </dd>
+       <dt class= "col-sm-2">
+       Total Order Price
+   </dt>
+   <dd class= "col-sm-10">
+       @Model.OrderPrice
+   </dd>
+    <dt class= "col-sm-2">
+       Order Reference
+   </dt>
+   <dd class= "col-sm-10">
+       @Model.OrderReference
+   </dd>
+    <dt class= "col-sm-2">
+       Quantity Selected Per Treat Chosen:
+   </dt>
+   <dd class= "col-sm-10">
+       @Model.QuantityOfTreats
+   </dd>
+   <dt class= "col-sm-2">
+       Order Status:
+   </dt>
+   <dd class= "col-sm-10">
+       @Model.OrderStatus
+   </dd>
+</div>
+ <div>
+    <div class="card-title">
+        <i><h5 class="text-center" style= "font-family: Book Antiqua;"> The Items  Ordered</i></h5>
+    </div>
+   <table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model=> model.TreatName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.TreatPrice)
+            </th>
+               <th>
+                @Html.DisplayNameFor(model=> model.NumberofTreatsInPack)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+     @foreach (var treat in @Model.Treats)
+        {
+        <tr>
+         
+            <td>
+                @Html.DisplayFor(modelItem => treat.Name)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => treat.TreatPrice)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => treat.NumberofTreatsInPack)
+            </td>
+        </tr>
+        }
+    </tbody>
+  </div>
+</dl>

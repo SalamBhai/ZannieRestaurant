@@ -1,0 +1,63 @@
+@model ViewTreatRequestModel
+<h3> Here is the Treat!</h3>
+<head>
+    <style>
+      body{
+         body{    
+           background-color:powderBlue;
+            background-size:cover;
+            background-image:url('../NewDownloads/ourtreats.jpg');
+           background-repeat:no-repeat;
+
+        }
+      
+      .col-sm-10{
+          color:blue;
+      }
+    </style>
+</head>
+
+@{
+ Layout="~/Views/Shared/_Layout.cshtml";
+  ViewData["Title"] = "#############";
+}
+ <dd class="col-sm-10">
+        <img class="card-img" style="height:200px; width:200px; border-radius:50% border-color: orange" src="~/TreatPhoto/@Model.TreatPhoto" />
+    </dd>
+<dl class="row">
+    <dt class="col-sm-2">
+        Name:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Name
+    </dd>
+    <dt class= "col-sm-2">
+       Price
+    </dt>
+    <dd class="col-sm-10">
+        @Model.TreatPrice
+    </dd>
+    <dt class= "col-sm-2">
+       Category Name
+    </dt>
+    
+    <dd class="col-sm-10">
+        @Model.CategoryName
+    </dd>
+     <dt class= "col-sm-2">
+       Category Name
+    </dt>
+    
+    <dd class="col-sm-10">
+        @Model.CategoryName
+    </dd>
+<dt class= "col-sm-2">
+       Description
+    </dt>
+    
+    <dd class="col-sm-10">
+        @Model.TreatDescription
+    </dd>
+
+</dl>
+

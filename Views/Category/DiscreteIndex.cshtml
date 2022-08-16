@@ -1,0 +1,48 @@
+@model IEnumerable<ViewCategoryRequestModel>
+    @{
+ Layout="~/Views/Shared/_AdministratorLayout.cshtml";
+  ViewData["Title"] = "Admin";
+}
+    <h3><i>Our Treat Categories</i></h3>
+<div class="card-header" style="background-color:midnightblue;">
+    <div class="card-title">
+        <h1 class="text-center"> Categories</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                User Actions.....
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+        <tr>
+         
+            <td>
+                @Html.DisplayFor(modelItem => category.CategoryName)
+            </td>
+           
+
+            <td>
+                <a asp-action="UpdateCategory" asp-route-id="@category.id">Update This Category</a>
+            </td>
+            <td>
+                <a asp-action="GetCategory" asp-route-id="@category.id">View Full Details</a>
+            </td>
+            <td>
+                <a asp-action="DeleteCategory" asp-route-id="@category.id">Delete This Category</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+

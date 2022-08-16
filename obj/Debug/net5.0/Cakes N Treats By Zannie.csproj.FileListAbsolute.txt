@@ -1,0 +1,107 @@
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.AssemblyInfo.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.RazorAssemblyInfo.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.RazorAssemblyInfo.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\ref\Cakes N Treats By Zannie.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.pdb
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\appsettings.json
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.exe
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.deps.json
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.runtimeconfig.json
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.runtimeconfig.dev.json
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\ref\Cakes N Treats By Zannie.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.pdb
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.Views.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Cakes N Treats By Zannie.Views.pdb
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Humanizer.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\staticwebassets\Cakes N Treats By Zannie.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\staticwebassets\Cakes N Treats By Zannie.StaticWebAssets.xml
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\scopedcss\bundle\Cakes N Treats By Zannie.styles.css
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.TagHelpers.input.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.TagHelpers.output.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.RazorCoreGenerate.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\CreateCategory.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\DeleteCategory.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\DeletionSuccess.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\DiscreteIndex.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\GetCategories.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\GetCategory.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Category\UpdateCategory.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Comment\Create.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Home\Location.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\Create.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\Created.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\Delete.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\DeleteMade.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\FindOrders.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\GetAUserOrder.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\GetDeliveredOrders.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\GetMyOrders.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\GetNewOrders.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\GetOrder.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\GetPaidOrders.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Order\UpdateOrderByAdmin.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Shared\_AdministratorLayout.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Shared\_CustomerLayout.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Shared\_DispatcherLayout.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\CreateTreat.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\DeleteTreat.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\DeletionSuccess.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\DiscreteIndex.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\GetFullDetailsOfTreat.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\GetTreats.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\Scrap.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\TreatInfo.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\Treat\UpdateTreat.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\AdminDashboard.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\CreateAdministrator.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\CreateCustomer.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\CreateDispatcher.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\DeletionSuccess.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\DispatcherDashboard.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\GetUser.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\GetUsers.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\Login.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\Logout.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\User\UserDashBoard.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.RazorTargetAssemblyInfo.cs
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.Views.pdb
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.csproj.CopyComplete
+C:\Users\user\Desktop\Cakes N Treats By Zannie\obj\Debug\net5.0\Cakes N Treats By Zannie.genruntimeconfig.cache

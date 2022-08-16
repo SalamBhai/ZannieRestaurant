@@ -1,0 +1,87 @@
+@model CreateTreatRequestModel
+@using Cakes_N_Treats_By_Zannie.Enums;
+<!doctype html>
+<html>
+<head>
+<style>
+        .container{
+            background-image: url('../ImagesDownloaded/Bestchips.png');
+            font-family:"Times New Roman";
+        }
+</style>
+</head>
+<body>
+@{
+ Layout="~/Views/Shared/_AdministratorLayout.cshtml";
+ViewData["Title"] = "Admin";
+}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-red">
+                    <h1 class="tagcolor" style="color:gold"> Create Treat</h1>
+                   <i> <p class="tagcolor" style="color: aqua">Create Treat Here  </p> </i>
+                    <hr class="tagcolor" style="color:red">
+
+                </div>
+                <form asp-action="CreateTreat"enctype="multipart/form-data"style="background-image: url('ImagesDownloaded/ image(20).jpeg');">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <i><label asp-for="Name" class="control-label"></label></i>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <div>
+                             <i> <label asp-for="Price" class="control-label" class="text-align:right"></label></i>
+                            </div>
+                           
+                            <input asp-for="Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                          <div class="form-group col-sm-6">
+                            <div>
+                             <i> <label asp-for="TreatDescription" class="control-label" class="text-align:right"></label></i>
+                            </div>
+                           
+                            <input asp-for="TreatDescription" class="form-control" />
+                            <span asp-validation-for="TreatDescription" class="text-danger"></span>
+                        </div>
+                         <div class="form-group col-sm-6">
+                             <select asp-for= "TypeOfTreatPack" asp-items= "Html.GetEnumSelectList<TreatPackType>()"> </select>
+                             <div>
+                              <label asp-for="NumberofTreatsInPack" class="control-label"></label></i>
+                             <input asp-for="NumberofTreatsInPack" class="form-control" />
+                             <span asp-validation-for="NumberofTreatsInPack" class="text-danger"></span>
+                             </div>
+                        </div>
+                        
+                    </div>
+                     <div>
+                        <div class="col-md-6" style="margin-top: 20px; font-size: large; font-weight: medium; color:dark">
+                            <i><label  class="control-label"></label> </i>
+                             <select asp-for= "CategoryId" class="form-control" asp-items="ViewBag.Categories" required>
+                            <option value=><i>Select A Category To Which You are creating this Treat </i></option>
+                                </select>
+                        
+                        </div>
+                       <div>
+                        <div class="form-group">
+                            <label class="control-label">Insert Your Photo please</label>
+                            <input name="TreatPhoto" type="file" class="form-control" />
+                        </div>
+                    </div>
+                      <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Create Treat " class="btn btn-success trigger-btn col-sm-12 w-70" data-toggle="modal" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>        
+
+
+</div>
+</body>

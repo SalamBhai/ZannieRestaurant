@@ -1,0 +1,62 @@
+@model CreateOrderRequestModel
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url('../SlideImages/cart2.jpeg');
+                font-family: "Times New Roman";
+                color:Blue;
+            }
+        </style>
+    </head>
+    
+@{
+ Layout="~/Views/Shared/_CustomerLayout.cshtml";
+  ViewData["Title"] = "Customer";
+}
+<div class="container">
+    <div class="row justify-content">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-pink">
+                    <h5 class="tagcolor" style="color: red"> Order Time </h5>
+                    <hr class="tagcolor" style="color:pink">
+
+                </div>
+                <div class="col-md-7" style="margin-top: 10px; font-size:large; font-weight:large; color:Black">
+                           
+                 <form asp-action="Create">
+                  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div>
+                           <i><label  class="control-label"></label> Our Menu</i>
+                            <select asp-for= "Treats" class="form-control" asp-items="ViewBag.Treats" multiple required>
+                             <option value=><i> You Are Interested In ? </i></option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group col-sm-6">
+                           <i> <label asp-for="DeliveryDate" class="control-label"></label>  </i>
+                            <input asp-for="DeliveryDate" class="form-control" />
+                            <span asp-validation-for="DeliveryDate" class="text-danger"></span>
+                        </div>                 
+                        
+                                
+                        <div class= "form-group-col-sm-6"> 
+                         <i><label asp-for= "NumberOfQuantities" class= "control-label" > Quantity For First Item To The Last You Selected</label></i>
+                         <i> <input asp-for= "NumberOfQuantities" class= "control-label"/></i>
+                         <i><span asp-validation-for= "NumberOfQuantities" class="text-danger"></span></i>
+                        </div>
+                   </div>
+                      <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Order" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+    </div>        
+
+
+</div>
+</html>

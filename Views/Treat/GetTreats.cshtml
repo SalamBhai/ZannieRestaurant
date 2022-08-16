@@ -1,0 +1,45 @@
+@model IEnumerable<ViewTreatRequestModel>
+    <!Doctype html>
+    <html>
+    <head>
+        <style>
+     body{    
+           background-color:Gold;
+            background-size:cover;
+            background-image:url('../NewDownloads/ourtreats.jpg');
+           background-repeat:no-repeat;
+
+        }
+        .table{
+             font-family:"Times New Roman";
+             color: blue;
+            }
+            </style>
+        </head>
+
+    @{
+     Layout="~/Views/Shared/_Layout.cshtml";
+}
+    <div class="card-header" style="background-image:blue;">
+    <div class="card-title">
+        <i><h2 class="text-side" style= "background-color: DarkRed">Our Treats</h2> </i>
+    </div>
+</div>
+        @foreach (var treat in Model)
+        {
+            <div>
+                <div class= "justify-content-right">
+              <img class="card-img" style="height:200px; width:200px; border-radius:50% border-color: orange" src="~/TreatPhoto/@treat.TreatPhoto" />
+           </div>
+                <div class= "justify-content-left">
+                    <b> @Html.DisplayFor(modelItem => treat.Name)</b>
+               </div>
+                <div  class= "justify-content-left">
+                  <h5> Treat Price: </h5><b>@Html.DisplayFor(modelItem => treat.TreatPrice) </b>
+                </div>
+                 <div class= "justify-content-left">
+                     <b>@Html.DisplayFor(modelItem=> treat.TreatDescription)</b>
+                 </div>
+               <button style="background-color:DodgerBlue"> <b><a asp-action="GetFullDetailsOfTreat" asp-route-id="@treat.id">View Full Details</a> </b></button>
+           </div>
+        }

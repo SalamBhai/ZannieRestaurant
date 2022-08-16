@@ -1,0 +1,48 @@
+@model AdminUpdateOrderRequestModel
+@using Cakes_N_Treats_By_Zannie.Enums
+
+@{
+ Layout="~/Views/Shared/_AdministratorLayout.cshtml";
+  ViewData["Title"] = "Admin";
+}
+<head>
+    <style>
+        .form-row{
+            font-family:"Times New Roman";
+            color: Black;
+        }
+    </style>
+</head>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:midnightblue"> Update </h1>
+                    <p class="tagcolor" style="color:green">Provide information to update this order</p>
+                    <hr class="tagcolor" style="color:midnightblue">
+
+                </div>
+                <form asp-action="UpdateOrderByAdmin" asp-controller= "Order" style ="background-color: gold">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <select asp-for="OrderStatus" asp-items="Html.GetEnumSelectList<OrderStatus>()">Update This Order's Status</select>
+                        </div>
+
+                    </div>
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Update" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+  @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }

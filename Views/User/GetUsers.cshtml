@@ -1,0 +1,47 @@
+@using System.Security.Claims;
+@model IEnumerable<ViewUserRequestModel>
+    <div class="card-header" style="background-color:pink;">
+    <div class="card-title">
+        <i><h2 class="text-side" style= "background-color: yellowishgreen">Your Users</h2> </i>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            
+            <th>
+                View Full Details
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => user.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => user.EmailAddress)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => user.PhoneNumber)
+            </td>
+            <td>
+                <a ap-controller= "User" asp-action="GetUser" asp-route-id="@User.FindFirst(ClaimTypes.NameIdentifier).Value"> Full Details</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,48 @@
+@model IEnumerable<ViewTreatRequestModel>
+
+    @{
+      Layout="~/Views/Shared/_AdministratorLayout.cshtml";
+      ViewData["Title"] = "Admin";
+}
+    <div class="card-header" style="background-color:Blue;">
+    <div class="card-title">
+        <i><h4>Welcome @User.Identity.Name ! Dear Administrator! Here are the activities you have access to</h4> </i>
+    </div>
+</div>
+<div>
+<table class="table">
+
+    <h4><i>Treats</i></h4>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            
+            <th>
+                Your Actions...
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var treat in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => treat.Name)
+            </td>
+            <td>
+                <a asp-action="GetFullDetailsOfTreat" asp-route-id="@treat.id">View Full Details</a>
+            </td>
+            <td>
+                <a asp-action="DeleteTreat" asp-route-id="@treat.id">Delete Treat</a>
+            </td>
+            <td>
+                <a asp-action="UpdateTreat" asp-route-id="@treat.id">Update This Treat</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+

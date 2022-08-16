@@ -1,0 +1,95 @@
+@model IEnumerable<ViewTreatRequestModel>
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 180px;
+}
+body{
+    background-color:Gold;
+    background-size:cover;
+     background-image:url('../NewDownloads/ourtreats.jpg');
+     background-repeat:no-repeat;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#menu{
+  font-family:"Lucida Calligraphy";
+  color:DarkRed;
+  text-shadow: 2px 3px 4px #000000;
+  text-align:center;
+}
+.dtm{
+  border: 2px solid Black;
+  transition-duration:0.5s;
+}
+.dtm:hover{
+  background-color:Black;
+}
+</style>
+</head>
+<body>
+<h3 id ="menu"> Our Menu</h3>
+<div class="gallery">
+  <a target="_blank" href="../ImagesDownloaded/best.jpg">
+    <img src="../ImagesDownloaded/best.jpg" alt="Welcome Here" width="600" height="300">
+  </a>
+  <div class="desc"> Welcome To Cakes "N" Treats By Zannie, Welcome here are our treats and their costs</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="../ImagesDownloaded/hbd.jpg">
+    <img src="../ImagesDownloaded/hbd.jpg" alt="Made From Roots" width="600" height="300">
+  </a>
+  <div class="desc"> Got someone to surprise on his and her special day and you are in quest for the best present? The <b><i>Zannie's Happy Birthday Cake</i></b> is just a call away!</div>
+  <div class= "desc"><b><a asp-controller = "Home" asp-action="Contact">Contact us for the pocket-friendly rate</a></b></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="../ImagesDownloaded/Drinks.png">
+    <img src="../ImagesDownloaded/Drinks.png" alt="Made From Roots" width="600" height="300">
+  </a>
+  <div class="desc">Got a full tiring day at work? Cool The Day Off With Our <i> Made From Roots Drink</i> specially made from natural fruits with no additives</div>
+  <div class= "desc"><b><a asp-controller = "Home" asp-action="Contact">Contact us for the pocket-friendly rate</a></b></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../ImagesDownloaded/doughnuts.jpg">
+    <img src="../ImagesDownloaded/doughnuts.jpg" alt="Doughnuts" width="600" height="400">
+  </a>
+  <div class="desc"> Doughnuts?  Yes! It Is!Creamy, and delicious, Get From Our Delicacies, <b><i>The Zannie Doughnuts <b><i> For 3000 NGN for the pack of Three!!!</i></b> </i> </b> </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../ImagesDownloaded/strawberries.jpeg">
+    <img src="../ImagesDownloaded/strawberries.jpeg" alt="Strawberries" width="600" height="400">
+  </a>
+  <div class="desc">Got Some Craves For Fruits! make a quest for our deliveries at your door for <i>Tasty Fruits! </i></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../SlideImages/locals.jpg">
+    <img src="../SlideImages/locals.jpg" alt="Strawberries" width="600" height="400">
+  </a>
+  <div class="desc"> It's Mouth-friendly! Isn't it? Get Your Order Placed on <b><i>Our Africana </i></b></div>
+</div>
+<div>
+<button style= "background-color: wheat; " id= "dtm"><a asp-controller= "Treat" asp-action="GetTreats"> Get Our Treats</a></button>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@model IEnumerable<ViewOrderRequestModel>
+<!doctype html>
+<html>
+    <head>
+        <style>
+          body{
+              background-color:Black;
+          }
+          .Order-Details{
+              font-family:"Times New Roman";
+              color:White;
+          }
+        </style>
+    </head>
+    <body>
+        <table>
+       <thead>
+           <th>
+              <table class="table">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model=> model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.DeliveryDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.TreatsContainedInOrder)
+            </th>
+              <td>
+                VIew Full Details
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+     @foreach (var order in Model)
+        {
+            <tr class= "Order-Details">
+                <td>
+                    @Html.DisplayFor(modelItem => order.CustomerName)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => order.OrderDate)
+                </td>
+                  <td>
+                    @Html.DisplayFor(modelItem => order.DeliveryDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => order.TreatsContainedInOrder)
+                </td> 
+                <td>
+                 <button><a asp-action = "GetOrder" asp-controller= "Order" asp-route-id=@order.Id> View Full Details </a></button>
+                </td> 
+             </tr>
+        }
+           </th>
+       </tbody>
+       </table>
+       <div>
+         <button style= "background-color:DodgerBlue"> <a   asp-controller= "User" asp-action= "AdminDashboard">Back To Home</a> </button>
+        </div>
+    </body>
+</html>

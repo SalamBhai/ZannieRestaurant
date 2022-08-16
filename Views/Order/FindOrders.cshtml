@@ -1,0 +1,62 @@
+@model IEnumerable<ViewOrderRequestModel>
+    <div class="card-header" style="background-color: midnightblue;">
+    <div class="card-title">
+        <h4 class="text-center"style="text-color:gold">All Orders</h4>
+    </div>
+</div>
+@{
+    Layout="~/Views/Shared/_AdministratorLayout.cshtml";
+    ViewData["Title"]= "Admin";
+}
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model=> model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.DeliveryDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.TreatsContainedInOrder)
+            </th>
+              <td>
+                <h5>VIew Full Details</h5>
+            </td>
+            <td>
+                <h3>Update Details</h3>
+            </td>
+            
+
+        </tr>
+    </thead>
+    <tbody>
+     @foreach (var order in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => order.CustomerName)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => order.OrderDate)
+                </td>
+                  <td>
+                    @Html.DisplayFor(modelItem => order.DeliveryDate)
+                </td>
+                  <td>
+                    @Html.DisplayFor(modelItem => order.TreatsContainedInOrder)
+                </td> 
+                <td>
+                     <button id= "Detail" style= "background-color:Chocolate;border-radius:3%" ><a  asp-action= "GetOrder"asp-route-id="@order.Id"><b>View Full Detail </b></a> </button>
+                </td>
+                 <td>
+                   <button id= "Det"style= "background-color:Black; border-radius:2%"> <a  asp-action= "UpdateOrderByAdmin"asp-route-id="@order.Id"> <b>Edit Order Status </b> </a> </button>
+                </td>
+             </tr>
+        }
+    </tbody>

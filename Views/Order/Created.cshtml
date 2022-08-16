@@ -1,0 +1,24 @@
+@model ViewOrderRequestModel
+<html>
+<head>
+   <style> 
+   body{
+     background-image: url('../images/reserve.jpg');
+      size:cover;
+      background-repeat:no-repeat;
+   }
+   .ChangeFont{
+       color:DodgerBlue;
+       border: 2px;
+   }
+   </style>
+</head>
+
+@{
+ Layout="~/Views/Shared/_CustomerLayout.cshtml";
+  ViewData["Title"] = "Customer";
+}
+<div>
+ <h3 class= "ChangeFont"> Order Success!</h3></p> </div>
+   <div><h4> Proceed to Viewing Your Orders <button style= "background-color:magenta;"> <a asp-controller="Order" asp-action="GetMyOrders" >Get Order Made  By Clicking  <i><= Here</i></a></button></h4> </div>
+</html>

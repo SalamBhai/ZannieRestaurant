@@ -1,0 +1,56 @@
+@model IEnumerable<ViewOrderRequestModel>
+    <div class="card-header" style="background-color: White;">
+    <div class="card-title">
+        <h4 class="text-center"style="text-color:White">All Your  Orders</h4>
+    </div>
+</div>
+@{
+    Layout= "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"]= "Customer";
+}
+<body>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=> model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.DeliveryDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.TreatsContainedInOrder)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model=> model.OrderStatus)
+            </th>
+            <th>
+                You Can...
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+     @foreach (var order in Model)
+        {
+            <tr>  
+                 <td>
+                    @Html.DisplayFor(modelItem => order.OrderDate)
+                </td>
+                  <td>
+                    @Html.DisplayFor(modelItem => order.DeliveryDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => order.TreatsContainedInOrder)
+                </td> 
+                <td>
+                    @Html.DisplayFor(modelItem => order.OrderStatus)
+                </td> 
+                <td>
+                    <a  asp-action= "GetOrder"asp-route-id="@order.Id">View Full Detail</a>
+                </td>
+             </tr>
+        }
+        </tbody>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body{
+      background-color: grey;
+    }
+  </style>
+</head>
+<body>
+  <h3> Welcome @User.Identity.Name </h3>
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"] = "Customer";
+}
+
+    <div class="pd-ltr-20">
+        <div class="card-box pd-20 height-70-p mb-30">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="~/ImagesDownloaded/mywife.jpg" alt="Model">
+                </div>
+                <div class="col-md-8">
+                    <h4 class="font-20 weight-200 mb-10 text-capitalize">
+                        Welcome back @User.Identity.Name <div class="weight-600 font-30 text-blue"> Welcome! </div>
+                    </h4>
+                    <p class="font-18 max-width-600">Ever Been In Quest For A  Responsive Restaurant, Beautiful, And Customer-Concerned? Cakes "N" Treats By Zannie Is The Best Plug For This! Have You Recommended Any One Yet?</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer-wrap pd-20 mb-20 card-box">
+           Cakes "N" Treats By Zannie Designed By The Binary Globe
+        </div>
+    </div>
+<!-- js -->
+<script>
+  function GreetUser(username)
+  {
+     alert(`Welcome ${username} here is your dashboard! ${&copy;} Cakes "N" Treats By Zannie Uses cookies would you like to save your information`)
+  }
+  GreetUser(@User.Identity.Name);
+</script>
+</body>
+</html>

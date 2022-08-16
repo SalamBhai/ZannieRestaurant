@@ -1,0 +1,56 @@
+@model CreateCommentRequestModel
+@using Cakes_N_Treats_By_Zannie.Enums;
+<!doctype html>
+<html>
+    <head>
+      <style> 
+
+      </style>
+    </head>
+    <body>
+            <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-pink">
+                   <h3>Register Your Comments And Views On Our Services</h3>
+                    <hr class="tagcolor" style="color:pink">
+                </div>
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="CommentContent" class="control-label"></label>
+                            <input asp-for="CommentContent" class="form-control" />
+                            <span asp-validation-for="CommentContent" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                             <select asp-for= "CommentType" asp-items= "Html.GetEnumSelectList<CommentsType>()"> </select>
+                        </div>
+                        <div class="form-group col-sm-6">
+                             <select asp-for= "Category" asp-items= "Html.GetEnumSelectList<CommentCategory>()"> </select>
+                        </div>
+                         <div class="form-group col-sm-6">
+                            <label asp-for="ToWhomCommentIsDirected" class="control-label"></label>
+                            <input asp-for="ToWhomCommentIsDirected" class="form-control" />
+                            <span asp-validation-for="ToWhomCommentIsDirected" class="text-danger"></span>
+                        </div>
+                    </div>
+                     <div>
+                        <div class="col-md-6" style="margin-top: 20px; font-size: large; font-weight: medium; color:dark">
+                            <i><label  class="control-label"></label> </i>
+                             <select asp-for= "TreatId" class="form-control" asp-items="ViewBag.Treats" required>
+                            <option value=><i>Select A Treat To Which This Comment Is Made </i></option>
+                                </select>
+                        </div>
+                    
+                    </div>
+                      <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Drop Your Comment " class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>        
+
+    </body>
+</html>

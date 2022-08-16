@@ -1,0 +1,25 @@
+@model ViewOrderRequestModel
+
+<h4>Sure to delete this Order?</h4>
+<div style="font-size: 100%;">
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Order Reference:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.OrderReference
+        </dd>
+        <dt class="col-sm-2">
+            Order Date:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.OrderDate
+        </dd>
+        
+    </dl>
+
+    <form asp-action="DeleteMade">
+        <input type="submit" value="Delete Order" class="btn btn-danger" /> 
+    </form>
+</div>
